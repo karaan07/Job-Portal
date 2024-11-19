@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 // Corrected CORS Configuration
 const corsOptions = {
-    origin: 'http://localhost:5173',  // Changed to HTTP for local development
+    origin: 'https://job-portal-qvvv.onrender.com',  // Changed to HTTP for local development
     credentials: true,
 };
 
